@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Чёрная пятница без скидок. С подарками. — Екатерина Бехтерева</title>
+  <meta name="description" content="Цены обычные. Сверху TG-боты, AI-агенты и подборки блогеров. Бронь места до 23 ноября, продажи 23–30 ноября 2026." />
+
+  <!-- Open Graph для превью в Telegram -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Чёрная пятница без скидок. С подарками." />
+  <meta property="og:description" content="Стратегия, личное сопровождение и тест-драйв агентства с подарками до 30 ноября." />
+  <meta property="og:image" content="assets/og-preview.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- БЛОК 1. ПЕРВЫЙ ЭКРАН -->
+  <header class="hero" id="top">
+    <div class="hero-ribbons" aria-hidden="true">
+      <div class="ribbon ribbon--hero-top">
+        <div class="ribbon__track">
+          <span>без скидок · с подарками · black friday · без скидок · с подарками · black friday · без скидок · с подарками · black friday · </span>
+          <span>без скидок · с подарками · black friday · без скидок · с подарками · black friday · без скидок · с подарками · black friday · </span>
+        </div>
+      </div>
+      <div class="ribbon ribbon--hero-bottom">
+        <div class="ribbon__track">
+          <span>без скидок · с подарками · black friday · без скидок · с подарками · black friday · без скидок · с подарками · black friday · </span>
+          <span>без скидок · с подарками · black friday · без скидок · с подарками · black friday · без скидок · с подарками · black friday · </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="topbar">
+        <a href="#top" class="brand">
+          <img src="assets/logo3.png" alt="Фиолетовая морковь" class="brand__logo" />
+          <span>Фиолетовая морковь</span>
+        </a>
+        <span class="topbar__name">Екатерина Бехтерева</span>
+      </div>
+
+      <div class="hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="hero__title-line">black</span>
+            <span class="hero__badge">до 30 НОЯБРЯ</span>
+            <span class="hero__title-line">friday</span>
+          </h1>
+
+          <p class="hero__subtitle">без скидок.<br />с подарками.</p>
+
+          <p class="hero__desc">
+            Цены обычные. Сверху боты, AI-агенты и подборки блогеров.
+            До 23 ноября — бронь места, с 23 по 30 ноября — открытая продажа.
+          </p>
+
+          <div class="hero__cta-wrap">
+            <a href="https://t.me/katikok_smm?text=%D0%9F%D0%AF%D0%A2%D0%9D%D0%98%D0%A6%D0%90" target="_blank" rel="noopener" class="btn btn--primary" data-goal="tg-hero">
+              Забрать подарок
+            </a>
+            <p class="hero__cta-note">или напиши «ПЯТНИЦА» в Telegram</p>
+          </div>
+
+          <div class="hero__meta">
+            <div class="meta-pill">
+              <span class="meta-pill__label">Всего мест</span>
+              <span class="meta-pill__value" id="total-spots-hero">8</span>
+            </div>
+            <div class="timer" id="hero-timer" aria-live="polite">
+              <div class="timer__item"><span data-days>00</span><small>дн</small></div>
+              <span class="timer__sep">:</span>
+              <div class="timer__item"><span data-hours>00</span><small>ч</small></div>
+              <span class="timer__sep">:</span>
+              <div class="timer__item"><span data-minutes>00</span><small>мин</small></div>
+            </div>
+          </div>
+
+          <div class="hero__ended hidden" id="hero-ended">
+            <p class="hero__ended-text">Акция завершена</p>
+            <a href="https://t.me/katikok_smm" target="_blank" rel="noopener" class="btn btn--primary">Узнать о следующей</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="duotone-portrait">
+            <img src="assets/DSC08506.jpg" alt="Екатерина Бехтерева" class="duotone-portrait__img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__footer-bar">
+        <span>Мест ограничено</span>
+        <span>@katikok_smm · @beh__kate</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- БЛОК 2. ПОЧЕМУ БЕЗ СКИДОК -->
+    <section class="section why">
+      <div class="container">
+        <div class="why__box">
+          <p class="why__lead">Все делают чёрную пятницу. Я тоже. Но скидок не будет.</p>
+          <p class="why__lead">Моя работа стоит столько, сколько стоит.</p>
+          <p class="why__lead why__lead--accent">Зато до 30 ноября к каждому офферу я добавляю инструмент, который работает на вас и после нашего проекта.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ribbon-divider" aria-hidden="true">
+      <div class="ribbon ribbon--section">
+        <div class="ribbon__track">
+          <span>без скидок · с подарками · black friday · без скидок · с подарками · black friday · без скидок · с подарками · black friday · </span>
+          <span>без скидок · с подарками · black friday · без скидок · с подарками · black friday · без скидок · с подарками · black friday · </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- БЛОК 3. ТРИ ОФФЕРА -->
+    <section class="section offers" id="offers">
+      <div class="container">
+        <h2 class="section__title">три формата работы</h2>
+        <p class="section__subtitle">Оплата или бронь до 30 ноября закрепляет за вами место и подарок. Начать работу можно в декабре.</p>
+
+        <div class="offers__grid">
+          <!-- Оффер 1 -->
+          <article class="card offer-card" data-offer="strategy">
+            <div class="offer-card__top">
+              <span class="tag-pill" data-spots-label="strategy">Осталось мест: 2</span>
+              <span class="gift-badge">Подарок на 20–30 тыс. ₽</span>
+            </div>
+            <h3 class="offer-card__title">Стратегия продвижения под ключ</h3>
+            <ul class="offer-card__list">
+              <li>Глубокий разбор продукта, целевой аудитории и точек потери заявок</li>
+              <li>Твёрдое позиционирование, офферы и перепаковка точек входа (Telegram, Instagram)</li>
+              <li>Пошаговая система привлечения клиентов: контент-связка и план трафика у блогеров</li>
+              <li>Дорожная карта внедрения на 1–2 месяца, чтобы вы знали, что делать завтра</li>
+            </ul>
+            <div class="offer-card__gift">
+              <strong>В подарок:</strong> сборка TG-бота или AI-агента под ваш проект (сценарий по готовой схеме или агент на базе знаний, который отвечает клиентам 24/7).
+              <span class="offer-card__note">Оплата сервисов (конструктор, токены) — на стороне клиента.</span>
+            </div>
+            <div class="offer-card__footer">
+              <div class="offer-card__price">60 000 ₽</div>
+              <button type="button" class="btn btn--primary btn--full js-pick-offer" data-pick="Стратегия продвижения под ключ (60 000 ₽)">Хочу этот</button>
+            </div>
+          </article>
+
+          <!-- Оффер 2 -->
+          <article class="card offer-card" data-offer="mentoring">
+            <div class="offer-card__top">
+              <span class="tag-pill" data-spots-label="mentoring">Осталось мест: 3</span>
+              <span class="gift-badge">Подарок на 10–15 тыс. ₽</span>
+            </div>
+            <h3 class="offer-card__title">Личное сопровождение 1 месяц</h3>
+            <ul class="offer-card__list">
+              <li>Плотная работа 1 на 1 в течение месяца: еженедельные созвоны и обратная связь</li>
+              <li>Совместная докрутка офферов, шапки профиля, закрепов и продающей воронки</li>
+              <li>Разбор постов, Reels и прогревов до публикации — чтобы тексты вели к заявкам</li>
+              <li>Корректировка действий по живым цифрам и реакциям аудитории</li>
+            </ul>
+            <div class="offer-card__gift">
+              <strong>В подарок:</strong> персональный AI-ассистент под ваш контент и голос (обученный в ChatGPT или Claude) + все материалы Starter Pack.
+            </div>
+            <div class="offer-card__footer">
+              <div class="offer-card__price">30 000 ₽</div>
+              <button type="button" class="btn btn--primary btn--full js-pick-offer" data-pick="Личное сопровождение 1 месяц (30 000 ₽)">Хочу этот</button>
+            </div>
+          </article>
+
+          <!-- Оффер 3 -->
+          <article class="card offer-card" data-offer="agency">
+            <div class="offer-card__top">
+              <span class="tag-pill" data-spots-label="agency">Осталось мест: 3</span>
+              <span class="gift-badge">Экономия 15 000 ₽ на ведении</span>
+            </div>
+            <h3 class="offer-card__title">Тест-драйв «Фиолетовой моркови»: подбор блогеров</h3>
+            <ul class="offer-card__list">
+              <li>Ручной подбор 10–15 релевантных блогеров под вашу нишу и бюджет (из базы 260+ авторов и свежего поиска)</li>
+              <li>Проверка каждого аккаунта на накрутки, ботов и совпадение с платёжеспособной ЦА</li>
+              <li>Готовое продающее ТЗ и тезисы нативной подачи — чтобы реклама давала заявки, а не пустые клики</li>
+            </ul>
+            <div class="offer-card__gift">
+              <strong>В подарок:</strong> если после подборки захотите отдать переговоры, маркировку и контроль выхода агентству под ключ — эти 15 000 ₽ идут в зачёт основного тарифа.
+            </div>
+            <div class="offer-card__footer">
+              <div class="offer-card__price">15 000 ₽</div>
+              <button type="button" class="btn btn--primary btn--full js-pick-offer" data-pick="Тест-драйв агентства: подбор блогеров (15 000 ₽)">Хочу этот</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 4. ЧТО ЗА ПОДАРКИ -->
+    <section class="section gifts">
+      <div class="container">
+        <h2 class="section__title">что за подарки</h2>
+        <div class="gifts__grid">
+          <div class="card gift-card">
+            <h3>TG-бот</h3>
+            <p>Встречает клиента, задаёт 3–4 вопроса, выдаёт разбор или материал за подписку и передаёт вам горячую заявку.</p>
+          </div>
+          <div class="card gift-card">
+            <h3>AI-агент</h3>
+            <p>Умный помощник на базе знаний вашего бизнеса: сам отвечает на вопросы по услугам и записывает клиентов даже ночью.</p>
+          </div>
+          <div class="card gift-card">
+            <h3>Персональный AI-ассистент</h3>
+            <p>Обучен на вашем стиле и нише — снимает «не знаю, что писать» и собирает черновики постов, Reels и прогревов за пару минут.</p>
+          </div>
+          <div class="card gift-card">
+            <h3>Подборка 10–15 блогеров</h3>
+            <p>Проверенные авторы без накруток и готовое ТЗ к рекламе — а при переходе в полное ведение с агентством 15 000 ₽ идут в зачёт.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 5. КАК ЗАБРАТЬ -->
+    <section class="section steps">
+      <div class="container">
+        <h2 class="section__title">как забрать</h2>
+        <div class="steps__grid">
+          <div class="card step-card">
+            <span class="step-card__num">01</span>
+            <p>Напиши «ПЯТНИЦА» в Telegram или выбери формат в форме ниже.</p>
+          </div>
+          <div class="card step-card">
+            <span class="step-card__num">02</span>
+            <p>Пообщаемся в переписке (или на коротком 15-минутном созвоне) и убедимся, что формат вам подходит.</p>
+          </div>
+          <div class="card step-card">
+            <span class="step-card__num">03</span>
+            <p>До 23 ноября — ранняя бронь, с 23 по 30 ноября — открытая продажа. Оплата до 30 ноября закрепляет место и подарок.</p>
+          </div>
+          <div class="card step-card">
+            <span class="step-card__num">04</span>
+            <p>Подарок собираем в ходе проекта: AI-ассистента — на первой неделе, бота или AI-агента — вместе со стратегией.</p>
+          </div>
+        </div>
+        <div class="steps__cta">
+          <a href="https://t.me/katikok_smm?text=%D0%9F%D0%AF%D0%A2%D0%9D%D0%98%D0%A6%D0%90" target="_blank" rel="noopener" class="btn btn--primary" data-goal="tg-steps">
+            Написать «ПЯТНИЦА»
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 6. КЕЙСЫ -->
+    <section class="section cases">
+      <div class="container">
+        <h2 class="section__title">как это работает в реальности</h2>
+        <div class="cases__grid">
+          <article class="card case-card">
+            <span class="tag-pill">Стратегия + бот + AI-агент</span>
+            <h3>«Пришла за стратегией, ушла с ботом и агентом»</h3>
+            <p><strong>Было:</strong> владелица офлайн-игропрактик и коучинга в СПб хотела готовое решение «сделайте за меня», а ночные заявки в переписках терялись.</p>
+            <p><strong>Сделали:</strong> собрали стратегию продвижения, затем внедрили чат-бота и AI-агента, который отвечает клиентам 24/7 и записывает без участия хозяйки.</p>
+            <p class="case-card__result"><strong>Стало:</strong> клиентка докупила автоматизацию следом за стратегией (итоговый чек 100 000 ₽), а рутина ушла в автомат.</p>
+          </article>
+
+          <article class="card case-card">
+            <span class="tag-pill">Сопровождение + система</span>
+            <h3>«Уход с иглы сарафана в студии йоги»</h3>
+            <p><strong>Было:</strong> крутая офлайн-студия, клиенты ходят годами, но только по рекомендациям. Времени жить в сторис у владелицы нет.</p>
+            <p><strong>Сделали:</strong> на личном сопровождении собрали чёткий план, упаковку и передали понятные шаги SMM-специалисту. Продлили работу на второй месяц.</p>
+            <p class="case-card__result"><strong>Стало:</strong> органический прирост заявок и спокойная система без ежедневной гонки за Reels.</p>
+          </article>
+
+          <article class="card case-card">
+            <span class="tag-pill">Личная система</span>
+            <h3>«130 000 ₽ за месяц на блоге в 460 подписчиков»</h3>
+            <p><strong>Было:</strong> маленький блог, Reels набирали 300–500 просмотров. По учебникам «успешного успеха» продаж быть не должно.</p>
+            <p><strong>Сделали:</strong> пересобрали продуктовую линейку, отказались от хаотичного контента в пользу точечных коллабораций, рекомендаций и быстрой работы с личными обращениями.</p>
+            <p class="case-card__result"><strong>Стало:</strong> ~130 000 ₽ на личной экспертизе за месяц — дело оказалось не в охватах.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 7. ОБО МНЕ -->
+    <section class="section about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__photo">
+            <div class="duotone-portrait duotone-portrait--card">
+              <img src="assets/photo_2026-06-16_18-55-16.jpg" alt="Екатерина Бехтерева" class="duotone-portrait__img" />
+            </div>
+          </div>
+          <div class="about__content">
+            <h2 class="section__title">кто за этим стоит</h2>
+            <p class="about__lead">Екатерина Бехтерева — маркетолог и основатель инфлюенс-агентства «Фиолетовая морковь».</p>
+            <div class="about__stats">
+              <div class="stat-item">
+                <strong>12 лет</strong>
+                <span>в маркетинге, из них 7+ лет в инфлюенсе и 5 лет с командой</span>
+              </div>
+              <div class="stat-item">
+                <strong>60+ кампаний</strong>
+                <span>для бизнеса и брендов с бюджетами от 100 тыс. до 3 млн ₽</span>
+              </div>
+              <div class="stat-item">
+                <strong>260+ блогеров</strong>
+                <span>и UGC-креаторов в собственной проверенной базе агентства</span>
+              </div>
+              <div class="stat-item">
+                <strong>Под ключ</strong>
+                <span>связываю продукт, оффер, трафик и AI-ботов в одну систему</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 8. ВОПРОСЫ -->
+    <section class="section faq">
+      <div class="container">
+        <h2 class="section__title">частые вопросы</h2>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary>«А если я не готова начать прямо сейчас?»</summary>
+            <p>До 23 ноября можно забронировать место, с 23 по 30 ноября — оплатить. Оплата до 30 ноября фиксирует за вами место и подарок, а стартовать саму работу мы можем в декабре.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Чем чат-бот отличается от AI-агента?</summary>
+            <p>Чат-бот работает по сценарию с кнопками: квалифицирует человека, выдаёт материал за подписку и передаёт заявку. AI-агент общается свободным текстом на базе знаний вашего бизнеса — отвечает на нестандартные вопросы, снимает возражения и записывает клиента даже ночью.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Можно ли оплатить частями?</summary>
+            <p>Да, поэтапную оплату можно обсудить в переписке перед стартом — напишите мне «ПЯТНИЦА» в Telegram, подберём комфортный вариант.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Что будет, если места закончатся раньше 30 ноября?</summary>
+            <p>Я веду личные проекты сама, поэтому беру максимум 2–3 человека на формат. Когда счётчик доходит до нуля, запись закрывается — остаётся только лист ожидания на следующий месяц.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Можно ли начать работу в декабре, если оплатить сейчас?</summary>
+            <p>Да. Оплачиваете или бронируете до 30 ноября, а дату старта ставим удобную для вас в декабре.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК 9. ФИНАЛ -->
+    <section class="section final" id="apply">
+      <div class="container">
+        <div class="final__box">
+          <h2 class="final__title">последние места</h2>
+          <p class="final__subtitle">в полночь 30 ноября подарки исчезают. цены остаются.</p>
+
+          <div class="hero__meta final__meta">
+            <div class="meta-pill">
+              <span class="meta-pill__label">Осталось мест</span>
+              <span class="meta-pill__value" id="total-spots-final">8</span>
+            </div>
+            <div class="timer" id="final-timer" aria-live="polite">
+              <div class="timer__item"><span data-days>00</span><small>дн</small></div>
+              <span class="timer__sep">:</span>
+              <div class="timer__item"><span data-hours>00</span><small>ч</small></div>
+              <span class="timer__sep">:</span>
+              <div class="timer__item"><span data-minutes>00</span><small>мин</small></div>
+            </div>
+          </div>
+
+          <form class="lead-form" id="lead-form">
+            <div class="lead-form__row">
+              <label class="field">
+                <span>Как вас зовут</span>
+                <input type="text" name="name" placeholder="Анна" required />
+              </label>
+              <label class="field">
+                <span>Ник в Telegram или телефон</span>
+                <input type="text" name="contact" placeholder="@anna или +7..." required />
+              </label>
+            </div>
+            <label class="field">
+              <span>Какой формат интересен</span>
+              <select name="offer" id="offer-select" required>
+                <option value="Стратегия продвижения под ключ (60 000 ₽)">Стратегия продвижения под ключ (60 000 ₽ + бот/AI-агент)</option>
+                <option value="Личное сопровождение 1 месяц (30 000 ₽)">Личное сопровождение 1 месяц (30 000 ₽ + AI-ассистент)</option>
+                <option value="Тест-драйв агентства: подбор блогеров (15 000 ₽)">Тест-драйв «Фиолетовой моркови»: подбор блогеров (15 000 ₽)</option>
+              </select>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="consent" required />
+              <span>Соглашаюсь на <a href="privacy.html" target="_blank">обработку персональных данных</a> и принимаю условия <a href="offer.html" target="_blank">оферты</a></span>
+            </label>
+            <div class="lead-form__actions">
+              <button type="submit" class="btn btn--primary">Забронировать место в Telegram</button>
+              <a href="https://t.me/katikok_smm?text=%D0%9F%D0%AF%D0%A2%D0%9D%D0%98%D0%A6%D0%90" target="_blank" rel="noopener" class="btn btn--ghost" data-goal="tg-final">
+                Написать «ПЯТНИЦА»
+              </a>
+            </div>
+          </form>
+
+          <div class="lead-form__success hidden" id="form-success">
+            <h3>Заявка отправлена</h3>
+            <p>Данные уже улетели Екатерине на почту. Нажмите кнопку ниже, чтобы сразу открыть чат в Telegram с @katikok_smm — отвечу лично и закреплю место до конца дня.</p>
+            <a id="fallback-tg-link" href="https://t.me/katikok_smm" target="_blank" rel="noopener" class="btn btn--primary">Открыть Telegram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- БЛОК ДОГРЕВА (для тех, кто пока не готов к покупке) -->
+    <section class="section downsell">
+      <div class="container">
+        <div class="downsell__box">
+          <div class="downsell__content">
+            <span class="tag-pill">Бесплатный старт</span>
+            <h2>Пока не готовы к формату под ключ?</h2>
+            <p>Пройдите 60-секундную диагностику в моём Telegram-боте: найдёте, где сейчас теряются заявки, и получите бесплатный доступ к моему AI-Маркетологу под ваш проект.</p>
+          </div>
+          <div class="downsell__action">
+            <a href="https://t.me/testdrive_purple_agent" target="_blank" rel="noopener" class="btn btn--primary" data-goal="bot-downsell">
+              Пройти разбор в боте
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/logo3.png" alt="Фиолетовая морковь" class="brand__logo" />
+          <div>
+            <strong>ИП Бехтерева Екатерина Николаевна</strong>
+            <p>ИНН 027501432906 · ОГРНИП 320028000100045</p>
+            <p>450015, Россия, Респ. Башкортостан, г. Уфа, ул. Мустая Карима, д. 50, кв. 65</p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <a href="https://t.me/katikok_smm" target="_blank" rel="noopener">Telegram: @katikok_smm</a>
+          <a href="https://instagram.com/beh__kate" target="_blank" rel="noopener">Instagram: @beh__kate</a>
+          <a href="privacy.html">Политика обработки персональных данных</a>
+          <a href="offer.html">Оферта</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Закреплённая кнопка на телефоне после первого экрана -->
+  <div class="mobile-sticky" id="mobile-sticky">
+    <a href="https://t.me/katikok_smm?text=%D0%9F%D0%AF%D0%A2%D0%9D%D0%98%D0%A6%D0%90" target="_blank" rel="noopener" class="btn btn--primary btn--full">
+      Забрать подарок
+    </a>
+  </div>
+
+  <!-- Cookie-баннер для аналитики -->
+  <div class="cookie-banner hidden" id="cookie-banner">
+    <p>Мы используем cookie для работы аналитики. Продолжая пользоваться сайтом, вы соглашаетесь с этим.</p>
+    <button type="button" class="btn btn--primary btn--sm" id="cookie-accept">Ок</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
